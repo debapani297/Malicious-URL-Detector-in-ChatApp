@@ -1,16 +1,13 @@
-# secure_chat
+Project: Malicious URL Detection in ChatApp messages
+=========================================================
+<img width="398" alt="Application Implementation" src="https://github.com/debapani297/Malicious-URL-Detector-in-ChatApp/assets/106057587/9ec1f456-3a50-4850-86ff-829f58a2138c">
 
-A new Flutter project.
+In this project, we have created a Chat application and a machine learning model which can detect the malicious URLs from text messages and prompts if they are safe to access.
+We finalised a dataset, and created machine learning models with three different algorithms.
+Then we selected the best model and created the pickle file.
+Our ChatApp can be accessed by multiple users.
+When a sender sends a message with a web URL in it, we have developed a Machine Learning Model to detect this URL and ensure its safety based on our trained model.
+Once a sender sends a message, we parse the message to check for web links with the help of regular expressions. 
+Once, we have detected the web link, we send it to flask based python program where we load the pickle file to check the URL.
+Then we receive the response as the percentage of safety of the URL and prompt the same to the user in the android Application.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
