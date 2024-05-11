@@ -11,3 +11,5 @@ Once a sender sends a message, we parse the message to check for web links with 
 Once, we have detected the web link, we send it to flask based python program where we load the pickle file to check the URL.
 Then we receive the response as the percentage of safety of the URL and prompt the same to the user in the android Application.
 
+Kaggle:
+https://www.kaggle.com/code/kragg033/phishing-detection
